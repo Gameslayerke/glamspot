@@ -32,7 +32,7 @@ const Footer = () => {
             </li>
             <li>
               <FaEnvelope className="contact-icon" />
-              <a href="mailto:njambi@example.com">njambi@example.com</a>
+              <a href="mailto:njambi@gmail.com">njambi@example.com</a>
             </li>
             <li>
               <FaPhone className="contact-icon" />
