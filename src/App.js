@@ -106,11 +106,13 @@ function App() {
             } />
             
             {/* Protected routes */}
-            <Route path="/addproduct" element={
-              <ProtectedRoute requiredRole="admin">
+            {/* <Route path="/addproduct" element={
+              <ProtectedRoute requiredRole="user">
                 <ProductUploadForm />
               </ProtectedRoute>
-            } />
+            } /> */}
+
+            <Route path='addproduct' element={<ProductUploadForm/>}/>
             
             <Route path="/mpesapayment" element={
               <ProtectedRoute>
